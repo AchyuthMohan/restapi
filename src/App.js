@@ -1,5 +1,4 @@
 
-import './App.css';
 import axios from 'axios'
 import {useState} from 'react'
 
@@ -19,7 +18,8 @@ function App() {
       return(
         <div>
          <h1>{index}</h1>
-         <h4>{obj.title}</h4>
+         <h1>{obj.title}</h1>
+         <h4>{obj.body}</h4>
         </div>
       )
     })}
